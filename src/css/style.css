@@ -160,7 +160,6 @@ h2.tittle {
    margin-top: 45px;
    display: flex;
    justify-content: space-between;
-
 }
 
 .waiting .waiting_wrapper .waiting_item {
@@ -210,7 +209,6 @@ h2.tittle {
 }
 
 .optimization .optimization_text span {
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 700;
    font-size: 17px;
@@ -308,6 +306,7 @@ h2.tittle {
 
 .date p {
    margin-top: 24.5px;
+   margin-bottom: 52.5px;
    font-weight: 400;
    font-size: 23px;
    color: #4A4A4A;
@@ -323,18 +322,24 @@ h2.tittle {
 
 }
 
-.contacts_link,
-.contacts_link a,
-.contacts_phone {
+
+.contacts_link a {
+   color: #888888;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   font-weight: 300;
+}
+
+.contacts .contacts_phone {
    text-decoration-line: underline;
    color: #888888;
    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    font-weight: 300;
-
 }
 
 
 .contacts_link span::after {
    content: "|";
    text-decoration: none;
+   color: #888888;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
