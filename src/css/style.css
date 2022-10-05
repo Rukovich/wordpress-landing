@@ -351,9 +351,22 @@ h2.tittle {
    }
  }
 
- /* @media (max-width: 991px) {
-   .promo .promo_btn {
-      margin-top: 30px;
+ @media (max-width: 991px) {
+   .tittle {
+      font-size: 35px;
+   }
+   .simple .tittle_big {
+      font-size: 60px;
+    line-height: 60px;
+   }
+   .promo .promo_text {
+      font-size: 16px;
+      margin-top: 22.5px;
+      line-height: 20px;
+   }
+   .promo .promo_text span {
+      font-weight: 700;
+      font-size: 18px;
    }
  }
 
@@ -361,11 +374,22 @@ h2.tittle {
    .promo .promo_btn {
       margin-top: 30px;
    }
+   .tittle {
+      font-size: 25px;
+   }
+   .simple .tittle_big {
+      font-size: 40px;
+    line-height: 40px;
+   }
  }
 
  @media (max-width: 575px) {
-   .promo .promo_btn {
-      margin-top: 30px;
+   .tittle {
+      font-size: 18px;
    }
- } */
+   .simple .tittle_big {
+      font-size: 30px;
+    line-height: 30px;
+   }
+ }
 
